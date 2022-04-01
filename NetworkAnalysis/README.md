@@ -4,6 +4,7 @@ This repository contains all of the code and data related to third assignment fo
 This repository is in active development, with new material being pushed on regularly from now and until **30th may 2022**.
 
 ## Assignment description 
+Write a ```.py``` script that does the following: 
 - If the user enters a *single filename* as an argument on the command line:
   - Load that edgelist
   - Perform network analysis using networkx
