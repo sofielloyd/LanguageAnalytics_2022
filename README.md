@@ -9,8 +9,8 @@ The coding part of this repository will be run on Python.
 ## Repo Structure  
 This repository has the following directory structure:  
 
-| Folder | Description |
+| **Folder** | **Description** |
 | ----------- | ----------- |
-| CollocationTool | Contains code for assignment 1 |
-| SentimentNER | Contains code for assignment 2 |
-| NetworkAnalysis | Contains code for assignment 3 |
+| ```CollocationTool``` | Contains code for assignment 1 |
+| ```SentimentNER``` | Contains code for assignment 2 |
+| ```NetworkAnalysis``` | Contains code for assignment 3 |
