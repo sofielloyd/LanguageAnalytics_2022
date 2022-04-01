@@ -4,15 +4,16 @@ This repository contains all of the code and data related to third assignment fo
 This repository is in active development, with new material being pushed on regularly from now and until **30th may 2022**.
 
 ## Assignment description 
-- If the user enters a single filename as an argument on the command line:
+- If the user enters a *single filename* as an argument on the command line:
   - Load that edgelist
-Perform network analysis using networkx
-Save a simple visualisation
-Save a CSV which shows the following for every node:
-name; degree; betweenness centrality; eigenvector_centrality
-If the user enters a directory name as an argument on the command line:
-Do all of the above steps for every edgelist in the directory
-Save a separate visualisation and CSV for each file
+  - Perform network analysis using networkx
+  - Save a simple visualisation
+  - Save a CSV which shows the following for every node:
+    - name; degree; betweenness centrality; eigenvector_centrality
+
+- If the user enters a *directory name* as an argument on the command line:
+  - Do all of the above steps for every edgelist in the directory
+  - Save a separate visualisation and CSV for each file
 
 ## Goal
 The goal of this assignment is to demonstrate that I have a good understanding of how to perform network analysis on undirected, weighted edgelists using networkx. 
