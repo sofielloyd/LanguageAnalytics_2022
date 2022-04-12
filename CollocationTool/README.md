@@ -4,7 +4,7 @@ This repository contains all of the code and data related to first assignment fo
 This repository is in active development, with new material being pushed on regularly from now and until **30th may 2022**.
 
 ## Assignment description 
-write a small Python program to perform collocational analysis using the string processing and NLP tools you've already encountered. Your script should do the following:  
+Write a small Python program to perform collocational analysis using the string processing and NLP tools you've already encountered. Your script should do the following:  
 - Take a user-defined search term and a user-defined window size.
 - Take one specific text which the user can define.
 - Find all the context words which appear ± the window size from the search term in that text.
