@@ -11,7 +11,7 @@ Write a small Python program to perform NER and sentiment analysis. Using the co
   - Find all mentions of geopolitical entites
   - Save a CSV which shows the text ID, the sentiment scores, and column showing all GPEs in that text
   - Find the 20 most common geopolitical entities mentioned across each dataset 
-  - Plot the results as a bar charts
+    - Plot the results as a bar charts
 
 ## Goal
 The goal of this assignment is to demonstrate that I have a good understanding of how to perform dictionary-based sentiment analysis.
