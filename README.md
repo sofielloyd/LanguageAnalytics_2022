@@ -12,6 +12,6 @@ This repository has the following directory structure:
 | **Folder** | **Description** |
 | ----------- | ----------- |
 | ```CollocationTool``` | Contains code for assignment 1 |
-| ```SentimentNER``` | Contains code for assignment 2 |
 | ```NetworkAnalysis``` | Contains code for assignment 3 |
+| ```SentimentNER``` | Contains code for assignment 2 |
 | ```TextClassification``` | Contains code for assignment 4 |
