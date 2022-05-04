@@ -9,15 +9,19 @@ This repository is in active development, with new material being pushed on regu
 
 
 ## Methods
-The coding part of this repository will be run on Python.  
+*A short paragraph outlining how you chose to solve the problem in the assignment. * 
 
 
 ## Usage (reproducing results)
+The coding part of this repository will be run on Python.  
 
-## Discussion of results
+
+## Discussion of results  
+
 
 ## Repo Structure  
 This repository has the following directory structure:  
+
 
 | **Folder** | **Description** |
 | ----------- | ----------- |
