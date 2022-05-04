@@ -5,10 +5,12 @@ This repository contains all of the code and data related to my portfolio exam i
 
 Language analytics portfolio consists of 5 projects; 4 class assignments + 1 self-assigned
 
-This repository is in active development, with new material being pushed on regularly from now and until **30th may 2022**.
+This repository is in active development, with new material being pushed on regularly from now and until **30th may 2022**.  
+
 
 ## Methods
-The coding part of this repository will be run on Python. 
+The coding part of this repository will be run on Python.  
+
 
 ## Usage (reproducing results)
 
@@ -23,3 +25,4 @@ This repository has the following directory structure:
 | ```NetworkAnalysis``` | Contains code for assignment 3 |
 | ```SentimentNER``` | Contains code for assignment 2 |
 | ```TextClassification``` | Contains code for assignment 4 |
+| ``` X ``` | Contains code for self-assigned project |
