@@ -9,7 +9,7 @@ This repository is in active development, with new material being pushed on regu
 
 
 ## Methods
-*A short paragraph outlining how you chose to solve the problem in the assignment. * 
+*A short paragraph outlining how you chose to solve the problem in the assignment.*
 
 
 ## Usage (reproducing results)
