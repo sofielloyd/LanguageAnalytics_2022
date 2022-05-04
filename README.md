@@ -19,7 +19,7 @@ The coding part of this repository will be run on Python.
 
 
 ## Discussion of results  
-*A short paragraph briefly summarizing any results along with any additional reflections. *  
+*A short paragraph briefly summarizing any results along with any additional reflections.*  
 
 
 ## Repo Structure  
