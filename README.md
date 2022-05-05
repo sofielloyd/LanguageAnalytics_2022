@@ -31,3 +31,5 @@ This repository has the following directory structure:
 | ```SentimentNER``` | Contains code for assignment 2 | ```input```, ```output```, ```src```, ```utils``` |
 | ```TextClassification``` | Contains code for assignment 4 | ```input```, ```output```, ```src```, ```utils``` |
 | ``` X ``` | Contains code for self-assigned project | ```input```, ```output```, ```src```, ```utils``` |
+
+*The ```X``` folder isn't created just, but will be so before 30th may 2022.*
