@@ -3,9 +3,9 @@
 ## Description
 This repository contains all of the code and data related to my portfolio exam in the Spring 2022 module **Language Analytics** which is a part of my tilvalg in Cultural Data Science at Aarhus University.  
 
-The language analytics portfolio consists of 5 projects; 4 class assignments + 1 self-assigned
+The language analytics portfolio consists of 5 projects; 4 class assignments + 1 self-assigned.
 
-This repository is in active development, with new material being pushed on regularly from now and until **30th may 2022**.  
+This repository is in active development, with new material being pushed on regularly until **30th may 2022**.  
 
 
 ## Methods
