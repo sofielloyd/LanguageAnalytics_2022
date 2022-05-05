@@ -11,7 +11,7 @@ This repository is in active development, with new material being pushed on regu
 ## Usage (reproducing results)
 Every folder in this repository is structred with the following folders; ```input```, ```output```, ```src```, ```utils```, and a README.md which gives a further description of the assignment.  
 
-- The ```input``` folders are empty and this is where you should uploade your own data, if you want to reproduce the code. The input data that I have used for the given code is described in the specific assignmentfolder.
+- The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. The input data that I have used for the given code is described in the specific assignmentfolder.
 
 - The ```output``` folders contains my results and it is this folder that you should save you own results when replicating the code. 
 
