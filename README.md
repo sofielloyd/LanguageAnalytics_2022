@@ -32,4 +32,4 @@ This repository has the following directory structure:
 | ```TextClassification``` | Contains code for assignment 4 | ```input```, ```output```, ```src```, ```utils``` |
 | ``` X ``` | Contains code for self-assigned project | ```input```, ```output```, ```src```, ```utils``` |
 
-*The ```X``` folder isn't created just, but will be so before 30th may 2022.*
+*The ```X``` folder isn't created yet, but will be so before 30th may 2022.*
