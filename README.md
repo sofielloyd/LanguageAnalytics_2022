@@ -13,24 +13,21 @@ Every folder in this repository is structred with the following folders; ```inpu
 
 The ```input``` folders are empty and this is where you should uploade your own data, if you want to reproduce the code. The input data that I have used for the given code is described in the specific assignmentfolder.
 
-The ```output``` folders contains my results and it is this folder that you should 
-*Include some instructions for how a user can engage with your code and reproduce/replicate your results. This includes installing dependencies from a requirements.txt, and how to run the script from the command line (including extra arguments, etc).*  
+The ```output``` folders contains my results and it is this folder that you should save you own results when replicating the code. 
 
-The coding part of this repository will be run on Python.  
+The ```src``` folders contains the code written in ```.py``` scripts. 
 
-
-## Discussion of results  
-*A short paragraph briefly summarizing any results along with any additional reflections.*  
+```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier.
 
 
 ## Repo Structure  
 This repository has the following directory structure:  
 
 
-| **Folder** | **Description** | *Sub-folder* |
+| **Folder** | **Description** | *Sub-folders* |
 | ----------- | ----------- | ----------- | 
 | ```CollocationTool``` | Contains code for assignment 1 | ```input```, ```output```, ```src```, ```utils``` |
 | ```NetworkAnalysis``` | Contains code for assignment 3 | ```input```, ```output```, ```src```, ```utils``` |
-| ```SentimentNER``` | Contains code for assignment 2 |
-| ```TextClassification``` | Contains code for assignment 4 |
-| ``` X ``` | Contains code for self-assigned project |
+| ```SentimentNER``` | Contains code for assignment 2 | ```input```, ```output```, ```src```, ```utils``` |
+| ```TextClassification``` | Contains code for assignment 4 | ```input```, ```output```, ```src```, ```utils``` |
+| ``` X ``` | Contains code for self-assigned project | ```input```, ```output```, ```src```, ```utils``` |
