@@ -1,9 +1,9 @@
 # Text Classification - Assignment 4
 This repository contains all of the code and data related to fourth assignment for my portfolio exam in the Spring 2022 module **Language Analytics** which is a part of my tilvalg in Cultural Data Science at Aarhus University.  
 
-This repository is in active development, with new material being pushed on regularly from now and until **30th may 2022**.
 
 ## Assignment description 
+We're going to be working with the data in the folder ```CDS-LANG/toxic``` and trying to see if we can predict whether or not a comment is a certain kind of *toxic speech*.  
 Write two ```.py``` scripts which do the following:
 
 - The first script should perform benchmark classification using standard machine learning approaches
@@ -14,12 +14,22 @@ Write two ```.py``` scripts which do the following:
   - Keras ```Embedding``` layer, Convolutional Neural Network
   - Save the classification report to a text file 
 
-## Goal
-The goal of this assignment is to show that I can perform text classification using *both* classical machine learning approaches, as well as using more sophisticated 
-deep learning approaches.
+### Goals and outcome of the assignment
+- The goal of this assignment is to show that I can perform text classification using *both* classical machine learning approaches, as well as using more sophisticated deep learning approaches.
+- The scripts can also be reused and modified for use on other text data in a tabular format.
 
-## Technicalities 
+
+## Method
 The coding part of this repository will be run on Python. 
+
+## Usage
+In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
+I have used the **toxic dataset** which can be found **[here](inset link)**.  
+
+You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
+
+The scripts can be run from the command line by changing the directory to ```src``` and then execute  ```python ML_classification.py``` *or* ```python DL_classification.py```.
+
 
 ## Repo Structure  
 This repository has the following directory structure:  
@@ -29,3 +39,21 @@ This repository has the following directory structure:
 | ```input``` | Input data |
 | ```output``` | Output data |
 | ```src``` | Python scripts |
+| ```utils``` | Additional Python functions |
+
+
+- The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code.
+
+- The ```output``` folders contains my results and it is this folder that you should save your own results when replicating the code. 
+
+- The ```src``` folders contains the code written in ```.py``` scripts. 
+
+- The ```utils``` folders contains a collection of small Python functions which make common patterns shorter and easier. The utils scripts used in this project were developed in-class and can also be found in [this](https://github.com/CDS-AU-DK/cds-language) repository.
+
+
+## Discussion of results 
+### Results for ```ML_classification.py```
+
+### Results for ```DL_classification.py```
+
+### Further development
