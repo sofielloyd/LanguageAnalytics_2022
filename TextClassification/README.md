@@ -52,8 +52,9 @@ This repository has the following directory structure:
 
 
 ## Discussion of results 
-### Results for ```ML_classification.py```
+### Results 
+#### ```ML_classification.py```
 
-### Results for ```DL_classification.py```
+#### ```DL_classification.py```
 
 ### Further development
