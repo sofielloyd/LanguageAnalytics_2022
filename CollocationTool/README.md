@@ -18,8 +18,7 @@ My ```.py``` script does the following:
 
 ### Goals and outcome of the assignment
 - The goal of this assignment is to demonstrate that I have a good understanding of how to use simple text processing techniques to extract valuable information from text data.
-- After completing this assignment, you will have a simple collocation tool which can in principal be resused on another text dataset of your choice
-- 
+- After completing this assignment, you will have a simple collocation tool which can in principal be resused on another text dataset of your choice.
 
 ## Methods
 The coding part of this repository will be run in Python. 
@@ -27,7 +26,7 @@ The coding part of this repository will be run in Python.
 
 ## Usage
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
-I have used the **100 english novels** which can be found [here](inset link).  
+I have used the **100 english novels** which can be found **[here](inset link)**.  
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
