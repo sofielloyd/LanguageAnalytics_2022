@@ -31,7 +31,7 @@ You'll also have to install the needed packages, which can be found in ```requir
 The scripts can be run from the command line by changing the directory to ```src``` and then execute  ```python ML_classification.py``` *or* ```python DL_classification.py```.
 
 
-## Repo Structure  
+### Repo Structure  
 This repository has the following directory structure:  
 
 | **Folder** | **Description** |
@@ -54,7 +54,14 @@ This repository has the following directory structure:
 ## Discussion of results 
 ### Results 
 #### ```ML_classification.py```
+- The output of this script is the ```ML_report.txt``` which can be found in the output folder.
+- The accuracy score is **XX**
+- The precision score is best for ```toxic``` and worst for ```non-toxic```.
+
 
 #### ```DL_classification.py```
+- The output of this script is the ```DL_report.txt``` which can be found in the output folder.
+- The accuracy score is **XX**
+- The precision score is best for ```non-toxic``` and worst for ```toxic```.
 
 ### Further development
