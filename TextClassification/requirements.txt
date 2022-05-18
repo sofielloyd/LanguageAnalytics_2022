@@ -1,0 +1,13 @@
+Requirements (install in terminal):
+
+pandas 
+Scikit-Learn
+re
+tqdm
+unicodedata
+contractions
+bs4 
+nltk
+numpy
+tensorflow
+
