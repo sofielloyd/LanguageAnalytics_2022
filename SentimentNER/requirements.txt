@@ -1,0 +1,8 @@
+Requirements (install in terminal): 
+
+pandas
+collections
+tqdm
+spacy
+vaserSentiment
+matplotlib
