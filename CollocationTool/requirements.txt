@@ -1,0 +1,7 @@
+Requirements (install in terminal):
+
+argparse
+spacy
+math
+pandas 
+re
