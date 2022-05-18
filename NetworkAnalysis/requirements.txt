@@ -1,0 +1,6 @@
+Requirements (install in terminal): 
+
+argparse
+pandas 
+networkx
+matplotlib
