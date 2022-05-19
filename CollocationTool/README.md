@@ -63,7 +63,7 @@ This repository has the following directory structure:
   - The filenames for these output files is called ```*filename*_collocates.csv```.
   - These results will be saved to the ```output``` folder.  
   - If the keyword doesn't appear in the text, the .csv file will be empty.
-  - It should be noticed that I have selected a small amount of texts from the **100 english novels**, but the script would also work on the whole dataset. 
+- It should be noticed that I have selected a small amount of texts from the **100 english novels**, but the script would also work on the whole dataset. 
 
 ### Further development 
 Some improvemnets for my code could be: 
