@@ -21,10 +21,10 @@ My ```.py``` script does the following:
 - After completing this assignment, you will have a simple collocation tool which can in principal be resused on another text dataset of your choice.
 
 ## Methods
-First, I use the ```re``` package to define my tokenizer in order to split the files. 
-I then define a function which can calculate the mutal information score using the ```math``` package. 
-I use these two functions to create my collocation tool. 
-I have also added two ```argparse``` arguments to make it possible for the user to choose to run the script on either a single file or a directory.
+First, I use the ```re``` package to define my tokenizer in order to split the files.   
+I then define a function which can calculate the mutal information score using the ```math``` package.   
+I use these two functions to create my collocation tool.   
+I have also added two ```argparse``` arguments to make it possible for the user to choose to run the script on either a single file or a directory.  
 
 
 ## Usage
