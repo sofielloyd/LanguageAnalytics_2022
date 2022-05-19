@@ -30,7 +30,7 @@ I have used the **100 english novels** which can be found **[here](inset link)**
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
-The ```collocation_tool.py``` can be run from the command line by changing the directory to ```src``` and then execute  ```python collocation_tool.py -fn *filename*``` for running the script on *a single file* or ```python collocation_tool.py -d *path to directory*``` for running the script on a directory.   
+The ```collocation_tool.py``` can be run from the command line by changing the directory to ```src``` and then execute  ```python collocation_tool.py -fn *filename*``` for running the script on *a single file* or ```python collocation_tool.py -d *path to directory*``` for running the script on a *directory*.   
 If you use the input folder, then the *path to directory* should be  ```../input```.
 
 I have used the keyword, **dog**, but this can be changed in the script. 
