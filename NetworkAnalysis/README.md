@@ -24,7 +24,10 @@ Write a ```.py``` script that does the following:
 - This script can be resued for future projects to perform a quick, simple network analysis.
 
 ## Method
-The coding part of this repository will be run on Python. 
+First I create a graph (G) using ```networkx``` and then uses ```draw_networkx``` to create a network from the graph.
+Furthermore, I uses ```networkx``` to find the ```degree()```, ```betweenness_centrality()``` and ```eigenvector_centrality()```.
+Using ```pandas``` I append these values into a dataframe.
+I have also added two ```argparse``` arguments, so the user can enter either a single filename or a directory on the command line. 
 
 ## Usage
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
