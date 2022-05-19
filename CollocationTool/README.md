@@ -56,7 +56,7 @@ This repository has the following directory structure:
 ### Results
 #### For single file
 - If the user runs the code for a single file, the output of this script will be a ```.csv``` file with all the context words to the keyword, how many times it appears as a collocate, how many times the context word appear in the text and the MI-score. 
-  - The filename for this output file is ```collocates.csv``` and can be found in the ```output``` folder. 
+- The filename for this output file is ```collocates.csv``` and can be found in the ```output``` folder. 
 
 #### For directory
 - If the user runs the code for the whole directory, the output of this script will be a ```.csv``` file for every text from the directory with all the context words to the keyword, how many times it appears as a collocate, how many times the context word appear in the text and the MI-score. 
