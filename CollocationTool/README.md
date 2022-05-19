@@ -60,9 +60,9 @@ This repository has the following directory structure:
 
 #### For directory
 - If the user runs the code for the whole directory, the output of this script will be a ```.csv``` file for every text from the directory with all the context words to the keyword, how many times it appears as a collocate, how many times the context word appear in the text and the MI-score. 
-  - If the keyword doesn't appear in the text, the .csv file will be empty.
-  - Theese files is called ```*filename*_collocates.csv```.
+  - The filenames for these output files is called ```*filename*_collocates.csv```.
   - These results will be saved to the ```output``` folder.  
+  - If the keyword doesn't appear in the text, the .csv file will be empty.
   - It should be noticed that I have selected a small amount of texts from the **100 english novels**, but the script would also work on the whole dataset. 
 
 ### Further development 
