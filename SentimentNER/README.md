@@ -62,7 +62,7 @@ This repository has the following directory structure:
 ## Discussion of results 
 ### Results
 #### ```real_news.py```
-- There is 3171 real news articles in the dataset.
+- There is **3171 real news** articles in the dataset.
 - The output of this script is a .csv file named ```output_real.csv``` and a .png file named ```chart_real.png```. 
    - Both files can be found in the ```output``` folder
 - The .csv file contains 6 columns named '*Text ID*', '*Title*', '*Negative*', '*Neutral*', '*Positive*' and '*Geopolitical Entities*'. 
@@ -74,7 +74,7 @@ This repository has the following directory structure:
 
 
 #### ```fake_news.py```
-- There is 3164 fake news articles in the dataset.
+- There is **3164 fake news** articles in the dataset.
 - The output of this script is a .csv file named ```output_fake.csv``` and a .png file named ```chart_fake.png```. 
    - Both files can be found in the ```output``` folder
 - The .csv file contains 6 columns named '*Text ID*', '*Title*', '*Negative*', '*Neutral*', '*Positive*' and '*Geopolitical Entities*'. 
