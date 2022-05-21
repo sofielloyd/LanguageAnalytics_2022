@@ -64,23 +64,24 @@ This repository has the following directory structure:
 #### ```real_news.py```
 - There is 3171 real news articles in the dataset.
 - The output of this script is a .csv file named ```output_real.csv``` and a .png file named ```chart_real.png```. 
+   - Both files can be found in the ```output``` folder
 - The .csv file contains 6 columns named '*Text ID*', '*Title*', '*Negative*', '*Neutral*', '*Positive*' and '*Geopolitical Entities*'. 
 - The .png file contains a bar chart with the top 20 GPEs in real news.  
    - The most frequent GPE is **US with 114** mentionings in the titles.
    - However, the third most frequent GPE is **America with 55** mentionings in the titles. 
    - Since US and America is referring to the same country there **combined frequency is 169**. 
    - The second most frequent GPE is **Iran with 94** mentionings in the real news, which could be a sign of something happened in Iran during the period the news are from. 
- - Both files can be found in the ```output``` folder
+
 
 #### ```fake_news.py```
 - There is 3164 fake news articles in the dataset.
 - The output of this script is a .csv file named ```output_fake.csv``` and a .png file named ```chart_fake.png```. 
+   - Both files can be found in the ```output``` folder
 - The .csv file contains 6 columns named '*Text ID*', '*Title*', '*Negative*', '*Neutral*', '*Positive*' and '*Geopolitical Entities*'. 
 - The .png file contains a bar chart with the top 20 GPEs in fake news.  
    - It is really interessting that **US/America** also are in a first and third place in the fake news. They even has a higher frequency in the fake news that in the real news, with a **combined frequency of 284** in the fake news. 
    - The second most frequent GPE is **Russia with 115** mentionings in the fake news.
    - Another notable observation in the top 20 GPEs is that **HILLARY** is mentioned 8 times in the titles in the fake news. It is clearly a problem that 'HILLARY' is getting labelled as a GPE eventhough I have run the script on the biggest NER model from SpaCy. 
-- Both files can be found in the ```output``` folder
 
 
 ### Further development 
