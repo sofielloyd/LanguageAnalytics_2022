@@ -63,8 +63,8 @@ This repository has the following directory structure:
 ## Discussion of results 
 ### Results
 The results of the script is two .csv files, named ```output_real.csv``` and ```output_fake.csv```, and two .png files, named ```chart_real.png``` and ```chart_fake.png```.   
-The .csv files contains 6 columns named 'Text ID', 'Title', 'Negative', 'Neutral', 'Positive' and 'Geopolitical Entities'.   
-The .png files contains a bar chart with the top 20 GPEs in fake news and real news. 
+The .csv files contains 6 columns named '*Text ID*', '*Title*', '*Negative*', '*Neutral*', '*Positive*' and '*Geopolitical Entities*'.   
+The .png files contains a bar chart with the top 20 GPEs in fake news and real news.   
 All these results can be found in the ```output``` folder. 
 
 
