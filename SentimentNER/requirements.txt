@@ -1,6 +1,7 @@
 Requirements (install in terminal): 
 
 pandas
+numpy
 collections
 tqdm
 spacy
