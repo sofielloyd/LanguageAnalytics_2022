@@ -40,8 +40,7 @@ I have used the **Fake vs Real News** which can be found **[here](inset link)**.
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
-The ```sentiment_ner.py``` can be run from the command line by changing the directory to ```src``` and then execute  ```python sentiment_ner.py``` 
-
+The ```sentiment_ner.py``` can be run from the command line by changing the directory to ```src``` and then execute ```python real_news.py``` *or* ```python fake_news.py```.
 
 ### Repo Structure  
 This repository has the following directory structure:  
@@ -85,3 +84,7 @@ This repository has the following directory structure:
 
 
 ### Further development 
+Some improvements for the code in the furture could be: 
+- Add another sentiment analysis method, e.g. ```TextBlob```, and compare the results with my results using ```Vader```. 
+- Add an ```argparse``` argument, which allows the user to enter antoher binary dataset. 
+   - To do this, it would also be great to combine the two scripts and create a more universal script that isn't targeted the real or fake news dataset.  
