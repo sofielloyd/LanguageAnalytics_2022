@@ -33,9 +33,9 @@ You have the choice of one of two different tasks:
 
 
 ## Method 
-First I used ```Vader``` to perform a sentiment analysis on the titles in the dataset.    
-Second I perform a *Named Entity Recognition* (NER) by piping through the titles to find all the Geopoliticial Entities. I have chosen to use the ```en_core_web_trf``` model from ```SpaCy```.   
-I have also removed all puncations in order to get e.g. 'US' and 'U.S.' as two entity instead of one. However, I have choose to keep spaces since some entities consists of two words, e.g. 'Saudi Arabia'. 
+First, I used ```Vader``` to perform a sentiment analysis on the titles in the dataset.    
+Second, I perform a *Named Entity Recognition* (NER) by piping through the titles to find all the Geopoliticial Entities. I have chosen to use the ```en_core_web_trf``` model from ```SpaCy```.   
+I have also removed all puncations in order to get e.g. 'US' and 'U.S.' as two entity instead of one. However, I have choose to keep spaces since some entities consists of two words, e.g. 'Saudi Arabia'.   
 I have created a new dataframe using ```Pandas```, which consists of the Text IDs, Titles, sentiment scores and GPEs. I have removed the titles with no GPE in it.   
 I order to find the top 20 most frequent GPEs, I have used ```Counter``` to count the unique values in the 'GPE' column.   
 At last I have used ```Matplotlib``` to visualise the top 20 GPEs in a bar chart.   
