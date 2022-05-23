@@ -42,7 +42,7 @@ At last I have used ```Matplotlib``` to visualise the top 20 GPEs in a bar chart
 
 ## Usage
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
-I have used the **Fake vs Real News** which can be found **[here](inset link)**.  
+I have used the **Fake vs Real News** which has been provided by our instructor, Ross.   
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
