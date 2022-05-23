@@ -21,7 +21,7 @@ Write two ```.py``` scripts which do the following:
 
 ## Method
 ### ```ML_classification.py```
-For this script I have used ```CountVectorizer``` and ```LogisticRegression``` from the ```Scikit-learn```` package to perform standard machine learning. 
+For this script I have used ```CountVectorizer``` and ```LogisticRegression``` from the ```Scikit-learn``` package to perform standard machine learning. 
 
 ### ```DL_classification.py```
 For this script I have used ```train_test_split``` from the ```Scikit-learn``` package to perform deep learning using a sequential model with an ```embedding``` layer from the ```Tensorflow``` package. 
