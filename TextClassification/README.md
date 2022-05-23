@@ -20,7 +20,12 @@ Write two ```.py``` scripts which do the following:
 
 
 ## Method
-The coding part of this repository will be run on Python. 
+### ```ML_classification.py```
+For this script I have used ```CountVectorizer``` and ```LogisticRegression``` from the ```Scikit-learn```` package to perform standard machine learning. 
+
+### ```DL_classification.py```
+For this script I have used ```train_test_split``` from the ```Scikit-learn``` package to perform deep learning using a sequential model with an ```embedding``` layer from the ```Tensorflow``` package. 
+
 
 ## Usage
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
@@ -55,13 +60,15 @@ This repository has the following directory structure:
 ### Results 
 #### ```ML_classification.py```
 - The output of this script is the ```ML_report.txt``` which can be found in the output folder.
-- The accuracy score is **XX**
-- The precision score is best for ```toxic``` and worst for ```non-toxic```.
+- The accuracy score is **0.79**.
+- The precision score for the label *non-toxic* is **0.76**. 
+- The precision score for the label *toxic* is **0.83**.
 
 
 #### ```DL_classification.py```
-- The output of this script is the ```DL_report.txt``` which can be found in the output folder.
-- The accuracy score is **XX**
-- The precision score is best for ```non-toxic``` and worst for ```toxic```.
+- The output of this script is the ```DL_report.txt``` and ````confusion_matrix.csv``` which both can be found in the output folder.
+- The classification report shows an accuracy score on **0.96**, a precision score for *non-toxic* on **0.97** and a precision score for *toxic* on **0.68**. 
+- The confusion matix shows that **5389** of the non-toxic comments were predicted as being non-toxic, **64** of the non-toxic comments were predicted as being toxic, **139** of the toxic comments were predicted as being non-toxic, and **137** of the toxic comments were predicted as being toxic. 
+
 
 ### Further development
