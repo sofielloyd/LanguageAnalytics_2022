@@ -31,7 +31,7 @@ I have also added two ```argparse``` arguments, so the user can enter either a s
 
 ## Usage
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
-I have used the **network data** which can be found **[here](inset link)**.  
+I have used the **network data** which has been provided by our instructor, Ross.     
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
