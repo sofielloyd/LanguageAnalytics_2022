@@ -66,7 +66,7 @@ This repository has the following directory structure:
 
 
 #### ```DL_classification.py```
-- The output of this script is the ```DL_report.txt``` and ````confusion_matrix.csv``` which both can be found in the output folder.
+- The output of this script is the ```DL_report.txt``` and ```confusion_matrix.csv``` which both can be found in the output folder.
 - The classification report shows an accuracy score on **0.96**, a precision score for *non-toxic* on **0.97** and a precision score for *toxic* on **0.68**. 
 - The confusion matix shows that **5389** of the non-toxic comments were predicted as being non-toxic, **64** of the non-toxic comments were predicted as being toxic, **139** of the toxic comments were predicted as being non-toxic, and **137** of the toxic comments were predicted as being toxic. 
 
