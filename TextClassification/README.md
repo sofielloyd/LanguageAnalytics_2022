@@ -71,4 +71,7 @@ This repository has the following directory structure:
 - The confusion matix shows that **5389** of the non-toxic comments were predicted as being non-toxic, **64** of the non-toxic comments were predicted as being toxic, **139** of the toxic comments were predicted as being non-toxic, and **137** of the toxic comments were predicted as being toxic. 
 
 
-### Further development
+### Further development 
+Some improvements for this code could be: 
+- To add a range of different ```Argparse``` parameters that would allow the user to interact with the code, such as the embedding dimension size and the CountVector parameters.
+
