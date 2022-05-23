@@ -8,7 +8,7 @@ The language analytics portfolio consists of 5 projects; 4 class assignments + 1
 
 ## Usage
 Every folder in this repository is structred with the following sub-folders; ```input```, ```output```, ```src```. Some of the assignments also contains a ```utils``` folder.   
-Furthermore, the folders contains a ```README.md``` which gives a further description of the assignment and the current folder, and a ```requirements.txt``` which contains a list of what should be install in order to run the scripts.  
+Furthermore, the folders contains a ```README.md``` which gives a further description of the assignment and the current folder, and a ```requirements.txt``` which contains a list of what should be installed in order to run the scripts.  
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code. The input data that I have used for the given code is described in the ```README.md```.
 
