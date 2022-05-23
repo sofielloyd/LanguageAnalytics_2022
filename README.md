@@ -26,10 +26,10 @@ This repository has the following directory structure:
 
 | **Folder** | **Description** | *Sub-folders* |
 | ----------- | ----------- | ----------- | 
-| ```CollocationTool``` | Contains code for assignment 1 | ```input```, ```output```, ```src```, ```utils``` |
-| ```NetworkAnalysis``` | Contains code for assignment 3 | ```input```, ```output```, ```src```, ```utils``` |
-| ```SentimentNER``` | Contains code for assignment 2 | ```input```, ```output```, ```src```, ```utils``` |
+| ```CollocationTool``` | Contains code for assignment 1 | ```input```, ```output```, ```src``` |
+| ```NetworkAnalysis``` | Contains code for assignment 3 | ```input```, ```output```, ```src``` |
+| ```SentimentNER``` | Contains code for assignment 2 | ```input```, ```output```, ```src``` |
 | ```TextClassification``` | Contains code for assignment 4 | ```input```, ```output```, ```src```, ```utils``` |
-| ``` X ``` | Contains code for self-assigned project | ```input```, ```output```, ```src```, ```utils``` |
+| ``` X ``` | Contains code for self-assigned project | ```input```, ```output```, ```src``` |
 
 *The ```X``` folder isn't created yet, but will be so before 30th may 2022.*
