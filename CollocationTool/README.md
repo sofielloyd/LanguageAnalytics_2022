@@ -29,7 +29,7 @@ I have also added two ```argparse``` arguments to make it possible for the user 
 
 ## Usage
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
-I have used the **100 english novels** which can be found **[here](inset link)**.  
+I have used the **100 english novels** which can be found [here](https://github.com/computationalstylistics/100_english_novels).  
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
