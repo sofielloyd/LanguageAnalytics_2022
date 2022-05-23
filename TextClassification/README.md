@@ -24,7 +24,7 @@ The coding part of this repository will be run on Python.
 
 ## Usage
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
-I have used the **toxic dataset** which can be found [here](https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf).  
+I have used the **Video Comments Threat Corpus** which can be found [here](https://www.simula.no/sites/default/files/publications/files/cbmi2019_youtube_threat_corpus.pdf).  
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
