@@ -6,7 +6,7 @@ This repository contains all of the code and data related to third assignment fo
 Write a ```.py``` script that does the following: 
 - If the user enters a *single filename* as an argument on the command line:
   - Load that edgelist
-  - Perform network analysis using networkx
+  - Perform network analysis using ```networkx```
   - Save a simple visualisation
   - Save a CSV which shows the following for every node:
     - name
@@ -41,16 +41,18 @@ If you use the input folder, then the *path to directory* should be  ```../input
 ### Repo Structure  
 This repository has the following directory structure:  
 
-| **Folder** | **Description** |
-| ----------- | ----------- |
-| ```input``` | Input data |
-| ```output``` | Output data |
-| ```src``` | Python scripts |
+| **Folder** | **Description** | *Sub-folder* |
+| ----------- | ----------- | ----------- |
+| ```input``` | Input data |  |
+| ```output``` | Output data | ```plots```, ```tables``` |
+| ```src``` | Python scripts | |
 
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code.
 
 - The ```output``` folders contains my results and it is this folder that you should save your own results when replicating the code. 
+  - The sub-folder ```plots``` contains the plots of the networks in .png format.
+  - The sub-folder ```tables``` contains .csv files with name, degree, betweenness centrality and eigenvector centrality
 
 - The ```src``` folders contains the code written in ```.py``` scripts. 
 
@@ -62,9 +64,9 @@ This repository has the following directory structure:
 
 #### For directory
 - If the user runs the code for the whole directory, the output of this script will be a ```.csv``` file for every file in the directory with the Named Entity, degree, betweenness centrality and eigenvector centrality. Their will also be created a ```.png``` file for every file in the directory which contains a visualisation of the network.
-  - Theese files is called ```*filename*_network.csv``` and ```*filename*_network.png```. 
-  - These results will be saved to the ```output``` folder.  
-  
+  - The visualisations are called ```*filename*_network.png``` and are saved in ```output/plots```.  
+  - The dataframes are called ```*filename*_network.csv``` and are saved in ```output/tables```. 
+   
 ### Further development 
 An improvement for the code could be:
 - Allow the user to choose between the different plotting algorithms that offers ```networkx```.
