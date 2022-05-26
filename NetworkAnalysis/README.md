@@ -3,7 +3,7 @@ This repository contains all of the code and data related to third assignment fo
 
 
 ## Contribution 
-This assignment was conduted in collaboration with Laura Louise Rokkjær (student no.: 201908876) and some of the code may be equivalent to each others. 
+This assignment was conduted in collaboration with Laura Louise Rokkjær (student no.: 201908876) and some of the code may be equivalent to each other. 
 
 
 ## Assignment description 
