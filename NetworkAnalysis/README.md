@@ -2,6 +2,10 @@
 This repository contains all of the code and data related to third assignment for my portfolio exam in the Spring 2022 module **Language Analytics** which is a part of my tilvalg in Cultural Data Science at Aarhus University.  
 
 
+## Contribution 
+This assignment was conduted in collaboration with Laura Louise Rokkjær (student no.: 201908876) and some of the code may be equivalent to each others. 
+
+
 ## Assignment description 
 Write a ```.py``` script that does the following: 
 - If the user enters a *single filename* as an argument on the command line:
