@@ -112,7 +112,7 @@ def sequences(X_train_norm, X_test_norm):
     # define out-of-vocabulary token
     t = Tokenizer(oov_token = '<UNK>')
 
-    # fit the tokenizer on then documents
+    # fit the tokenizer on the documents
     t.fit_on_texts(X_train_norm)
 
     # set padding value
