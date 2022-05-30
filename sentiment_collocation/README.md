@@ -78,7 +78,7 @@ This repository has the following directory structure:
     - This would of course be an improvements to be made for furture developments of the code. 
 
 #### Compare the Quran and the Bible
-| Scores | **Quran** | **Bible** | 
+| **Scores** | **Quran** | **Bible** | 
 | ----------- | ----------- | ----------- |
 | *Negative sentiment* |  | 0.063 |
 | *Neutral sentiment* |  | 0.847 |
