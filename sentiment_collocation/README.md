@@ -1,4 +1,4 @@
-# Sentiment and Collocation on religious texts - Self-assigned project
+# Sentiment and Collocation on Religious Texts - Self-assigned project
 This repository contains all of the code and data related to the self-assigned project for my portfolio exam in the Spring 2022 module **Language Analytics** which is a part of my tilvalg in Cultural Data Science at Aarhus University.  
 
 
