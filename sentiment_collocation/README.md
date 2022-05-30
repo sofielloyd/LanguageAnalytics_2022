@@ -84,13 +84,13 @@ This repository has the following directory structure:
 
 | **Scores** | **Quran** | **Bible** | 
 | ----------- | ----------- | ----------- |
-| Negative sentiment | 0.086 | 0.063 |
-| Neutral sentiment | 0.798 | 0.847 |
-| Positive sentiment | 0.116 | 0.089 |
-| Polarity score | 0.070 | 0.097 |
-| Subjectivity score | 0.358 | 0.371 | 
+| Negative sentiment | 0,086 | 0,063 |
+| Neutral sentiment | 0,798 | 0,847 |
+| Positive sentiment | 0,116 | 0,089 |
+| Polarity score | 0,070 | 0,097 |
+| Subjectivity score | 0,358 | 0,371 | 
 | Frequency of keyword (lord) | 976 | 8749 |
-| Total length of text | 896841 |  |
+| Total length of text | 896.841 | 4.768.136 |
 | Negative collocate words to keyword | 175 | 353 |
 | Neutral collocate words to keyword | 1495 | 4325 |
 | Positive collocate words to keyword | 231 | 343 |
