@@ -1,0 +1,21 @@
+Requirements (install in terminal):
+
+os
+argparse
+spacy
+en_core_web_lg
+math
+statistics
+matplotlib.pyplot 
+pandas 
+numpy 
+collections
+wordcloud
+nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.corpus
+nltk.tokenize
+vaderSentiment.vaderSentiment 
+textblob 
+spacytextblob.spacytextblob 
