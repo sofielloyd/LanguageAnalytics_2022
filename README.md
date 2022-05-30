@@ -30,6 +30,4 @@ This repository has the following directory structure:
 | ```NetworkAnalysis``` | Contains code for assignment 3 | ```input```, ```output```, ```src``` |
 | ```SentimentNER``` | Contains code for assignment 2 | ```input```, ```output```, ```src``` |
 | ```TextClassification``` | Contains code for assignment 4 | ```input```, ```output```, ```src```, ```utils``` |
-| ``` X ``` | Contains code for self-assigned project | ```input```, ```output```, ```src``` |
-
-*The ```X``` folder isn't created yet, but will be so before 30th may 2022.*
+| ``` sentiment_collocation``` | Contains code for self-assigned project | ```input```, ```output```, ```src``` |
