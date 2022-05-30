@@ -78,6 +78,8 @@ This repository has the following directory structure:
     - This would of course be an improvements to be made for furture developments of the code. 
 
 #### Compare the Quran and the Bible
+*These scores will also be displayed in the terminal when running the script* 
+
 | **Scores** | **Quran** | **Bible** | 
 | ----------- | ----------- | ----------- |
 | *Negative sentiment* | 0.086 | 0.063 |
