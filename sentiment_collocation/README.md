@@ -63,7 +63,7 @@ This repository has the following directory structure:
 #### Visualisations
 - The visualisations are called ```*filename*_textblob.png``` and ```*filename*_wordcloud.png``` are saved in ```output/plots```.  
 - The *_textblob.png* is a visualisation of the ```TextBlob``` sentiment analysis where the smoothed subjectivity and smoothed polarity is visualised. 
-  - The *polarity* curve shows that the **Quran** is more negative towards the end, and also it seems at it becomes more objective at the end of it. 
+  - The *polarity* curve shows that the **Quran** is more negative towards the end, and also it seems as it becomes more objective at the end the text. 
   - Since the **Bible** isn't sorted (starting with genesis) it really doesn't say anything about whether the bible is most positive towards the end of it.    
 - The *_wordcloud.png* is a visualisation of the ```wordcloud```. 
   - The most frequent words in the **Quran** is *allah* and *ye*. 
