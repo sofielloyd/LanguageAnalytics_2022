@@ -16,7 +16,7 @@ This repository contains all of the code and data related to the self-assigned p
 In order to reproduce this code, you'll need to uploade your own data into the ```input``` folder.   
 I have used the english translation of the **Quran** by Yusuf Ali which can be found [here](https://www.kaggle.com/datasets/zusmani/the-holy-quran?select=en.yusufali.csv).  
 I have also used the **King James Bible**, which has been provided by our instructor, Ross.  
-I have renamed the datasets to **quran.csv** and **bible.csv** to get a neater look in the output.  
+I have renamed the datasets to **quran.csv** and **bible.csv** to get a neater look in the output files.  
 
 You'll also have to install the needed packages, which can be found in ```requirements.txt```. 
 
@@ -48,4 +48,5 @@ This repository has the following directory structure:
 Some improvements for this code could be: 
 - Add an ```argparse``` argument which allows the user to define a number of different collocates at the same time, rather than only one.
 - Add an ```argparse``` argument which allows the user to define the keyword from the command line.  
+- Right now the script only works on .csv files where the third column contains the text. This of course gives some limmitation to the input file, and it would be a great improvement for the code to make it more reproducible by changing the code to be able to use all .csv files. 
 
