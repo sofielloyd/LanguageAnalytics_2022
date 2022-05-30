@@ -60,8 +60,11 @@ This repository has the following directory structure:
 
 ## Discussion of results 
 ### Results 
+#### Visualisations
+- The visualisations are called ```*filename*_textblob.png``` and ```*filename*_wordcloud.png``` are saved in ```output/plots```.  
+- The *_textblob.png* is a visualisation of the ```TextBlob``` sentiment analysis where the 
 
-- The visualisations are called ```*filename*_network.png``` and are saved in ```output/plots```.  
+#### Tables
 - The dataframes are called ```*filename*_network.csv``` and are saved in ```output/tables```. 
 
 ### Further development 
