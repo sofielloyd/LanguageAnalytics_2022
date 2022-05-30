@@ -11,7 +11,7 @@ My ```.py``` script does the following:
 - Find all the context words which appear ± the window size from the search term in the text.
 - Calculate the mutual information score for each context word. 
 - Make a ```vader``` sentiment analysis on the context words. 
-- Save results as a .csv file 
+- Save results as a .csv file. 
 
 
 ### Goals and outcome of the assignment
