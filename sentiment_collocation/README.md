@@ -80,14 +80,15 @@ This repository has the following directory structure:
 #### Compare the Quran and the Bible
 | **Scores** | **Quran** | **Bible** | 
 | ----------- | ----------- | ----------- |
-| *Negative sentiment* |  | 0.063 |
-| *Neutral sentiment* |  | 0.847 |
-| *Positive sentiment* |  | 0.089 |
-| *Polarity score* |  | 0.097 |
-| *Subjectivity score* |  | 0.371 | 
-| *Frequency of keyword* |  | 8749 |
-| *Negative collocate words to keyword* 
-| *Neutral collocate words to keyword*
+| *Negative sentiment* | 0.086 | 0.063 |
+| *Neutral sentiment* | 0.798 | 0.847 |
+| *Positive sentiment* | 0.116 | 0.089 |
+| *Polarity score* | 0.070 | 0.097 |
+| *Subjectivity score* | 0.358 | 0.371 | 
+| *Frequency of keyword* | 976 | 8749 |
+| *Negative collocate words to keyword* |  |  |
+| *Neutral collocate words to keyword* |  |  |
+| *Positive collocate words to keyword* |  |  |
 
 ### Further development 
 Some improvements for this code could be: 
