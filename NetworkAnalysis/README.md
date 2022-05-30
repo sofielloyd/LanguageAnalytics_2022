@@ -64,7 +64,9 @@ This repository has the following directory structure:
 ### Results
 #### For single file
 - If the user runs the code for a single file, the output of this script will be a ```.csv``` file with the Named Entity, degree, betweenness centrality and eigenvector centrality. Their will also be created a ```.png``` file which contains a visualisation of the network.
-  - The filenames for the output files is ```single_network.csv``` and ```single_network.png```, and can be found in the ```output``` folder.
+  - The visualisation are called ```single_network.png``` and are saved in ```output/plots```.  
+  - The dataframe are called ```single_network.csv``` and are saved in ```output/tables```. 
+
 
 #### For directory
 - If the user runs the code for the whole directory, the output of this script will be a ```.csv``` file for every file in the directory with the Named Entity, degree, betweenness centrality and eigenvector centrality. Their will also be created a ```.png``` file for every file in the directory which contains a visualisation of the network.
