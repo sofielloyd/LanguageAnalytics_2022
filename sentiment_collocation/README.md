@@ -76,6 +76,7 @@ This repository has the following directory structure:
  
 - The *_collocates.csv* contains 7 columns named 'Context words', 'Collocate count', 'Total count',	'MI score',	'Negative',	'Neutral' and	'Positive'. 
   - I have removed the stopwords from the text to make it more clear which context words appears near the keyword (*lord*), because words like 'and', 'the' and 'of' isn't really interesting for analysis. 
+  - I have sorted the dataframe by values in the column named 'Collocate count' in decending order, so that the context words that appears the most times near the keywords are at the top of the dataframe.  
   - The dataframe shows that *lord* often appears near *lord* which makes sense since *lord* is one of the most frequent words in both texts. 
 
 #### Compare the Quran and the Bible
