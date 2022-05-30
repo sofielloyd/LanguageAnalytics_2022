@@ -11,7 +11,8 @@ This repository contains all of the code and data related to the self-assigned p
 
 
 ## Method
-
+For this script I have first used ```vaderSentiment``` to make a sentiment analysis with the polarities *negative*, *neutral* and *positive*.  
+I have then used ```spacytextblob```to make a sentiment analysis with *polarity* 
 
 
 ## Usage
