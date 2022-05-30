@@ -82,15 +82,15 @@ This repository has the following directory structure:
 
 | **Scores** | **Quran** | **Bible** | 
 | ----------- | ----------- | ----------- |
-| *Negative sentiment* | 0.086 | 0.063 |
-| *Neutral sentiment* | 0.798 | 0.847 |
-| *Positive sentiment* | 0.116 | 0.089 |
-| *Polarity score* | 0.070 | 0.097 |
-| *Subjectivity score* | 0.358 | 0.371 | 
-| *Frequency of keyword* (lord) | 976 | 8749 |
-| *Negative collocate words to keyword* | 175 |  |
-| *Neutral collocate words to keyword* | 1495 |  |
-| *Positive collocate words to keyword* | 231 |  |
+| Negative sentiment | 0.086 | 0.063 |
+| Neutral sentiment | 0.798 | 0.847 |
+| Positive sentiment | 0.116 | 0.089 |
+| Polarity score | 0.070 | 0.097 |
+| Subjectivity score | 0.358 | 0.371 | 
+| Frequency of keyword (lord) | 976 | 8749 |
+| Negative collocate words to keyword | 175 |  |
+| Neutral collocate words to keyword | 1495 |  |
+| Positive collocate words to keyword | 231 |  |
 
 ### Further development 
 Some improvements for this code could be: 
