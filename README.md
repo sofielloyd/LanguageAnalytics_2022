@@ -20,7 +20,6 @@ Furthermore, the folders contains a ```README.md``` which gives a further descri
 
 
 ## Repo Structure  
-**FØLG OP PÅ OM ALLE AFLEVERINGER BRUGER UTILS!!** 
 This repository has the following directory structure:  
 
 
