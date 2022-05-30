@@ -88,9 +88,9 @@ This repository has the following directory structure:
 | *Polarity score* | 0.070 | 0.097 |
 | *Subjectivity score* | 0.358 | 0.371 | 
 | *Frequency of keyword* (lord) | 976 | 8749 |
-| *Negative collocate words to keyword* |  |  |
-| *Neutral collocate words to keyword* |  |  |
-| *Positive collocate words to keyword* |  |  |
+| *Negative collocate words to keyword* | 175 |  |
+| *Neutral collocate words to keyword* | 1495 |  |
+| *Positive collocate words to keyword* | 231 |  |
 
 ### Further development 
 Some improvements for this code could be: 
