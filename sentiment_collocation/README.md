@@ -3,10 +3,20 @@ This repository contains all of the code and data related to the self-assigned p
 
 
 ## Assignment description 
+My ```.py``` script does the following:
+- Load the data.
+- Make a sentiment analysis using ```Vader``` and ```TextBlob```.  
+- Create a ```wordcloud``` to visualise most used words. 
+- Take a user-defined search term based on the wordcloud, and a user-defined window size.
+- Find all the context words which appear ± the window size from the search term in the text.
+- Calculate the mutual information score for each context word. 
+- Make a ```vader``` sentiment analysis on the context words. 
+- Save results as a .csv file 
 
 
 ### Goals and outcome of the assignment
-- The goal of the self-assigned project is to demonstrate my skills in Python related to language analytics, such as NLP.
+- The goal of the project is to compare the Quran and the Bible in order to see if one of them is more positive than the other and which context words appears near the same keyword in both texts.  
+- I also want to demonstrate my skills in Python related to language analytics, such as NLP.
 - The code will provide a script which could be re-written and reused on separate data.
 
 
