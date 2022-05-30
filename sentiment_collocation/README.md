@@ -90,7 +90,7 @@ This repository has the following directory structure:
 | Polarity score | 0.070 | 0.097 |
 | Subjectivity score | 0.358 | 0.371 | 
 | Frequency of keyword (lord) | 976 | 8749 |
-| Total length of text |  |  |
+| Total length of text | 896841 |  |
 | Negative collocate words to keyword | 175 | 353 |
 | Neutral collocate words to keyword | 1495 | 4325 |
 | Positive collocate words to keyword | 231 | 343 |
