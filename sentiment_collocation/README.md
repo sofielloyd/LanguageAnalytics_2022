@@ -64,17 +64,23 @@ This repository has the following directory structure:
 - The visualisations are called ```*filename*_textblob.png``` and ```*filename*_wordcloud.png``` are saved in ```output/plots```.  
 - The *_textblob.png* is a visualisation of the ```TextBlob``` sentiment analysis where the smoothed subjectivity and smoothed polarity is visualised. 
   - The *polarity* curve shows that the **Quran** is more negative towards the end, and also it seems at it becomes more objective at the end of it. 
-  - Since the **Bible** isn't sorted (starting sith genesis) i really doesn't say anything about if the bible is most positive towards the end of it.    
+  - Since the **Bible** isn't sorted (starting with genesis) it really doesn't say anything about whether the bible is most positive towards the end of it.    
 - The *_wordcloud.png* is a visualisation of the ```wordcloud```. 
   - The most frequent word in the **Quran** is *allah* and *ye*. 
   - The most frequent words in the **Bible** is *lord*, *shall* and *god*. 
 
 #### Tables
 - The dataframes are called ```*filename*_sentiment.csv``` and ```*filename*_collocates.csv``` are saved in ```output/tables```. 
+- The *_sentiment.csv* contains 6 columns named 'Text', 'Negative', 'Neutral', 'Positive', 'Subjectivity' and 'Polarity'. 
+- The *_collocates.csv* contains 7 columns named 'Context words', 'Collocate count', 'Total count',	'MI score',	'Negative',	'Neutral' and	'Positive'. 
+  - I have tried to remove the stopwords from the text to make it more clear which context words appears near the keyword (*lord*), but somehow the stopwords finds there way back into data when I convert it to .csv. 
+    - Words like 'and', 'the' and 'of' isn't really interesting for analysis. 
+    - This would of course be an improvements to be made for furture developments of the code. 
 
 ### Further development 
 Some improvements for this code could be: 
 - Add an ```argparse``` argument which allows the user to define a number of different collocates at the same time, rather than only one.
 - Add an ```argparse``` argument which allows the user to define the keyword from the command line.  
 - Right now the script only works on .csv files where the third column contains the text. This of course gives some limmitation to the input file, and it would be a great improvement for the code to make it more reproducible by changing the code to be able to use all .csv files. 
+- Remove stopwords from ```*filename*_collocates.csv```. 
 
