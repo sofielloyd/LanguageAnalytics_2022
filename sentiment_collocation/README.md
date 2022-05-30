@@ -66,19 +66,18 @@ This repository has the following directory structure:
   - The *polarity* curve shows that the **Quran** is more negative towards the end, and also it seems at it becomes more objective at the end of it. 
   - Since the **Bible** isn't sorted (starting with genesis) it really doesn't say anything about whether the bible is most positive towards the end of it.    
 - The *_wordcloud.png* is a visualisation of the ```wordcloud```. 
-  - The most frequent word in the **Quran** is *allah* and *ye*. 
+  - The most frequent words in the **Quran** is *allah* and *ye*. 
   - The most frequent words in the **Bible** is *lord*, *shall* and *god*. 
 
 #### Tables
 - The dataframes are called ```*filename*_sentiment.csv``` and ```*filename*_collocates.csv``` are saved in ```output/tables```. 
 - The *_sentiment.csv* contains 6 columns named 'Text', 'Negative', 'Neutral', 'Positive', 'Subjectivity' and 'Polarity'. 
 - The *_collocates.csv* contains 7 columns named 'Context words', 'Collocate count', 'Total count',	'MI score',	'Negative',	'Neutral' and	'Positive'. 
-  - I have tried to remove the stopwords from the text to make it more clear which context words appears near the keyword (*lord*), but somehow the stopwords finds there way back into data when I convert it to .csv. 
-    - Words like 'and', 'the' and 'of' isn't really interesting for analysis. 
-    - This would of course be an improvements to be made for furture developments of the code. 
+  - I have removed the stopwords from the text to make it more clear which context words appears near the keyword (*lord*), because words like 'and', 'the' and 'of' isn't really interesting for analysis. 
+  - The dataframe shows that *lord* often appears near *lord* which makes sense when *lord* is one of the most frequent words in both texts. 
 
 #### Compare the Quran and the Bible
-*These scores will also be displayed in the terminal when running the script* 
+*These scores will also be displayed in the terminal when running the script*. 
 
 | **Scores** | **Quran** | **Bible** | 
 | ----------- | ----------- | ----------- |
@@ -88,9 +87,9 @@ This repository has the following directory structure:
 | Polarity score | 0.070 | 0.097 |
 | Subjectivity score | 0.358 | 0.371 | 
 | Frequency of keyword (lord) | 976 | 8749 |
-| Negative collocate words to keyword | 175 |  |
-| Neutral collocate words to keyword | 1495 |  |
-| Positive collocate words to keyword | 231 |  |
+| Negative collocate words to keyword | 175 | 353 |
+| Neutral collocate words to keyword | 1495 | 4325 |
+| Positive collocate words to keyword | 231 | 343 |
 
 ### Further development 
 Some improvements for this code could be: 
