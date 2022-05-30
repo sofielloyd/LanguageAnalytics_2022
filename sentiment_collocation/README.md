@@ -100,5 +100,4 @@ Some improvements for this code could be:
 - Add an ```argparse``` argument which allows the user to define a number of different collocates at the same time, rather than only one.
 - Add an ```argparse``` argument which allows the user to define the keyword from the command line.  
 - Right now the script only works on .csv files where the third column contains the text. This of course gives some limmitation to the input file, and it would be a great improvement for the code to make it more reproducible by changing the code to be able to use all .csv files. 
-- Remove stopwords from ```*filename*_collocates.csv```. 
 
