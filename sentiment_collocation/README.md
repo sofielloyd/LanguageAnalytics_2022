@@ -6,6 +6,8 @@ This repository contains all of the code and data related to the self-assigned p
 
 
 ### Goals and outcome of the assignment
+- The goal of the self-assigned project is to demonstrate my skills in Python related to language analytics, such as NLP.
+- The code will provide a script which could be re-written and reused on separate data.
 
 
 ## Method
