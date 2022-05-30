@@ -14,7 +14,7 @@ This repository contains all of the code and data related to the self-assigned p
 For this script I have first used ```vaderSentiment``` to make a sentiment analysis with the polarities *negative*, *neutral* and *positive*.  
 I have then used ```spacytextblob```to make a sentiment analysis with *polarity* (negative = 0.0, positive = 1.0) and *subjectivity* (objective = -1.0), subjective = +1.0).  I have used ```statistics``` to calculate the mean score of the sentiment scores and ```matplotlib``` to visualise the *polarity* and *subjectivity* across the dataset.  
 Further, I have used ```wordcloud``` to make a wordcloud of the most common words in the texts. I have used ```nltk.corpus```'s stopwords list to remove stopwords. I have used the wordcloud to find which words could be good to use for my collocation analysis. It turned out that *lord* is a very frequent word in both the quran and the bible, and that is why I have chosen *lord* to be the keyword for my collocation analysis.  
-At last, I have used ```vaderSentiment``` to make a sentiment analysis on the collocate words in the texts.  
+At last, I have used ```vaderSentiment``` to make a sentiment analysis on the collocate words in the texts and calculated how many of the collocate words are *negative*, *neutral* or *positive*.  
 
 
 
