@@ -28,16 +28,18 @@ The scripts can be run from the command line by changing the directory to ```src
 ### Repo Structure  
 This repository has the following directory structure:  
 
-| **Folder** | **Description** |
-| ----------- | ----------- |
-| ```input``` | Input data |
-| ```output``` | Output data |
-| ```src``` | Python scripts |
+| **Folder** | **Description** | *Sub-folder* |
+| ----------- | ----------- | ----------- |
+| ```input``` | Input data |  |
+| ```output``` | Output data | ```plots```, ```tables``` |
+| ```src``` | Python scripts | |
 
 
 - The ```input``` folders are empty and this is where you should upload your own data, if you want to reproduce the code.
 
 - The ```output``` folders contains my results and it is this folder that you should save your own results when replicating the code. 
+  - The sub-folder ```plots``` contains the plots of the networks in .png format.
+  - The sub-folder ```tables``` contains .csv files with name, degree, betweenness centrality and eigenvector centrality
 
 - The ```src``` folders contains the code written in ```.py``` scripts. 
 
@@ -45,6 +47,8 @@ This repository has the following directory structure:
 ## Discussion of results 
 ### Results 
 
+- The visualisations are called ```*filename*_network.png``` and are saved in ```output/plots```.  
+- The dataframes are called ```*filename*_network.csv``` and are saved in ```output/tables```. 
 
 ### Further development 
 Some improvements for this code could be: 
