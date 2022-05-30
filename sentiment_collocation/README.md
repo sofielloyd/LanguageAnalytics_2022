@@ -77,6 +77,18 @@ This repository has the following directory structure:
     - Words like 'and', 'the' and 'of' isn't really interesting for analysis. 
     - This would of course be an improvements to be made for furture developments of the code. 
 
+#### Compare the Quran and the Bible
+| Scores | **Quran** | **Bible** | 
+| ----------- | ----------- | ----------- |
+| *Negative sentiment* |  | 0.063 |
+| *Neutral sentiment* |  | 0.847 |
+| *Positive sentiment* |  | 0.089 |
+| *Polarity score* |  | 0.097 |
+| *Subjectivity score* |  | 0.371 | 
+| *Frequency of keyword* |  | 8749 |
+| *Negative collocate words to keyword* 
+| *Neutral collocate words to keyword*
+
 ### Further development 
 Some improvements for this code could be: 
 - Add an ```argparse``` argument which allows the user to define a number of different collocates at the same time, rather than only one.
